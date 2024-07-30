@@ -2,7 +2,7 @@ import { CompanyLogo1,CompanyLogo2,CompanyLogo3,CompanyLogo4,CompanyLogo5 } from
 
 const SocialProofSection = () => {
     return (
-        <div className=" bg-[#53389E] text-center pb-24 px-4 mx-auto">
+        <div className=" bg-[#53389E] text-center pb-24 px-1 sm:px-4 mx-auto">
             <div className=" container mx-auto flex flex-col gap-y-[32px]">
                 <p className="text-white font-inter">We&rsquo;ve worked with some great startups</p>
                 <div className="flex flex-wrap gap-y-4 gap-x-8 justify-center lg:justify-between">

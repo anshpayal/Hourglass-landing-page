@@ -34,7 +34,7 @@ const FeatureSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="pb-24 px-4">
+            <div className="pb-24 sm:px-4">
                 <div className="w-[343px] h-[240px] object-fill container mx-auto sm:w-auto sm:h-auto">
                     <img src={Image} alt="image" className="w-[343px] h-[240px] sm:w-auto sm:h-auto sm:object-fill" />
                 </div>

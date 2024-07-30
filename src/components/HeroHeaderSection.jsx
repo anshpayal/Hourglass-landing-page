@@ -3,7 +3,7 @@ import Logo from "../assets/Logo.png"
 
 const HeroHeaderSection = () => {
     return (
-        <div className="bg-[#53389E] lg:min-h-screen px-4 text-white font-inter">
+        <div className="bg-[#53389E] lg:min-h-screen px-1 sm:px-4 text-white font-inter">
             <header className="container mx-auto  px-4 py-6 flex justify-between items-center">
                 <div className="flex items-center space-x-[40px]">
                     <img className='w-[163px] h-[43px]' src={Logo} alt='Logo' />
