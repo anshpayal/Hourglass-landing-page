@@ -6,12 +6,12 @@ import SocialProofSection from './components/SocialProofSection';
 
 function App() {
   return (
-    <>
-      <HeroHeaderSection/>
-      <SocialProofSection/>
-      <FeatureSection/>
-      <FooterSection/>
-    </>
+    <div className="App">
+      <HeroHeaderSection />
+      <SocialProofSection />
+      <FeatureSection />
+      <FooterSection />
+    </div>
   );
 }
 
