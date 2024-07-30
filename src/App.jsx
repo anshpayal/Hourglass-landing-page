@@ -4,13 +4,14 @@ import FooterSection from './components/FooterSection';
 import HeroHeaderSection from './components/HeroHeaderSection';
 import SocialProofSection from './components/SocialProofSection';
 
+
 function App() {
   return (
     <div className="App">
-      <HeroHeaderSection />
-      <SocialProofSection />
-      <FeatureSection />
-      <FooterSection />
+      <HeroHeaderSection/>
+      <SocialProofSection/>
+      <FeatureSection/>
+      <FooterSection/>
     </div>
   );
 }

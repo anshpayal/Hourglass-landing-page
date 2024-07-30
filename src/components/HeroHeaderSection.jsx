@@ -14,7 +14,7 @@ const HeroHeaderSection = () => {
                     </nav>
                 </div>
 
-                <button className="text-white sm:bg-[#7F56D9] px-[18px] py-2 rounded-md sm:px-4 sm:py-2">
+                <button className="text-white sm:bg-[#7F56D9] px-1 py-2 rounded-md sm:px-4 sm:py-2">
                     <span className="block sm:hidden">
                         <Menu size={40} />
                     </span>
