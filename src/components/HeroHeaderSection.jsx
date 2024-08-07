@@ -17,13 +17,13 @@ const HeroHeaderSection = () => {
         <div className={`bg-[#53389E] lg:min-h-screen px-1 sm:px-4 text-white font-inter`}>
             <header className="container mx-auto  px-4 py-6 flex justify-between items-center">
                 <div className="flex items-center space-x-[40px]">
-                    <img className='w-[163px] h-[43px]' src={Logo} alt='Logo' />
+                    <img className=' w-[160.76px] sm:w-[163px] h-[44px]' src={Logo} alt='Logo' />
                     <NavItems />
                 </div>
 
-                <button className={`text-white sm:bg-[#7F56D9] px-1 py-2 rounded-lg sm:px-[18px] sm:py-2 h-11`}>
+                <button className={`text-white sm:bg-[#7F56D9] p-2 rounded-lg sm:px-[18px] sm:py-2 sm:h-11`}>
                     <span className="block sm:hidden">
-                        <Menu size={40} />
+                        <Menu size={24} />
                     </span>
                     <span className="hidden sm:block">
                         Talk to sales
@@ -37,13 +37,13 @@ const HeroHeaderSection = () => {
                     <h1 className=" text-4xl leading-[44px] sm:text-6xl font-medium sm:leading-[72px] mb-6">
                         We design physical <span className="border-b-4 border-current">experiences</span> that create more happy in the world
                     </h1>
-                    <p className=" text-[18px] sm:text-[20px] mb-12 font-extralight max-w-xl">
+                    <p className=" text-[18px] sm:text-[20px] mb-12 font-extralight text-[#E9D7FE] max-w-xl">
                         — We’re a full-service interior design agency who specialise in simple, useful and beautiful solutions for any space.
                     </p>
                 </div>
                 <div className="flex flex-col-reverse gap-y-3 sm:flex-row  sm:space-x-4">
-                    <button className={`bg-white text-[#53389E] px-[28px] font-medium py-[16px] sm:text-lg rounded-md flex items-center justify-center gap-3`}><span><PlayCircle size={24} /></span>Showreel</button>
-                    <button className={`bg-[#7F56D9] px-[28px] py-[16px] sm:text-lg font-medium rounded-md`}>Get in touch</button>
+                    <button className={`bg-white  text-[#53389E] px-[28px] font-medium py-[16px] sm:text-lg rounded-lg flex items-center justify-center gap-x-3 sm:gap-x-3`}><span><PlayCircle size={24} /></span>Showreel</button>
+                    <button className={`bg-[#7F56D9] px-[28px] py-[16px] sm:text-lg font-medium rounded-lg`}>Get in touch</button>
                 </div>
             </main>
         </div>
