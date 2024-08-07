@@ -1,10 +1,6 @@
 import { ChevronDown, Menu, PlayCircle } from 'lucide-react';
 import Logo from "../assets/Logo.png"
 
-const COLORS = {
-    primary: '#53389E',
-    secondary: '#7F56D9',
-};
 
 const NavItems = () => {
     return (
@@ -18,14 +14,14 @@ const NavItems = () => {
 
 const HeroHeaderSection = () => {
     return (
-        <div className={`bg-[${COLORS.primary}] lg:min-h-screen px-1 sm:px-4 text-white font-inter`}>
+        <div className={`bg-[#53389E] lg:min-h-screen px-1 sm:px-4 text-white font-inter`}>
             <header className="container mx-auto  px-4 py-6 flex justify-between items-center">
                 <div className="flex items-center space-x-[40px]">
                     <img className='w-[163px] h-[43px]' src={Logo} alt='Logo' />
                     <NavItems />
                 </div>
 
-                <button className={`text-white sm:bg-[${COLORS.secondary}] px-1 py-2 rounded-md sm:px-4 sm:py-2`}>
+                <button className={`text-white sm:bg-[#7F56D9] px-1 py-2 rounded-lg sm:px-[18px] sm:py-2 h-11`}>
                     <span className="block sm:hidden">
                         <Menu size={40} />
                     </span>
@@ -46,8 +42,8 @@ const HeroHeaderSection = () => {
                     </p>
                 </div>
                 <div className="flex flex-col-reverse gap-y-3 sm:flex-row  sm:space-x-4">
-                    <button className={`bg-white text-[${COLORS.secondary}] px-[28px] font-medium py-[16px] rounded-md flex items-center justify-center gap-3`}><span><PlayCircle size={20} /></span>Showreel</button>
-                    <button className={`bg-[${COLORS.secondary}] px-[28px] py-[16px] font-medium rounded-md`}>Get in touch</button>
+                    <button className={`bg-white text-[#53389E] px-[28px] font-medium py-[16px] sm:text-lg rounded-md flex items-center justify-center gap-3`}><span><PlayCircle size={24} /></span>Showreel</button>
+                    <button className={`bg-[#7F56D9] px-[28px] py-[16px] sm:text-lg font-medium rounded-md`}>Get in touch</button>
                 </div>
             </main>
         </div>
