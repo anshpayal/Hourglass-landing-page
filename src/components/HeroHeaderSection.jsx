@@ -37,13 +37,13 @@ const HeroHeaderSection = () => {
                     <h1 className=" text-4xl leading-[44px] sm:text-6xl font-medium sm:leading-[72px] mb-6">
                         We design physical <span className="border-b-4 border-current">experiences</span> that create more happy in the world
                     </h1>
-                    <p className=" text-[18px] sm:text-[20px] mb-12 font-extralight text-[#E9D7FE] max-w-xl">
+                    <p className=" text-[18px] sm:text-[20px] mb-12 font-light text-[#E9D7FE] max-w-xl">
                         — We’re a full-service interior design agency who specialise in simple, useful and beautiful solutions for any space.
                     </p>
                 </div>
                 <div className="flex flex-col-reverse gap-y-3 sm:flex-row  sm:space-x-4">
-                    <button className={`bg-white  text-[#53389E] px-[28px] font-medium py-[16px] sm:text-lg rounded-lg flex items-center justify-center gap-x-3 sm:gap-x-3`}><span><PlayCircle size={24} /></span>Showreel</button>
-                    <button className={`bg-[#7F56D9] px-[28px] py-[16px] sm:text-lg font-medium rounded-lg`}>Get in touch</button>
+                    <button className={`bg-white  text-[#53389E] px-[28px] py-[16px] sm:text-lg rounded-lg flex items-center justify-center gap-x-3 sm:gap-x-3`}><span><PlayCircle size={24} /></span>Showreel</button>
+                    <button className={`bg-[#7F56D9] px-[28px] py-[16px] sm:text-lg  rounded-lg`}>Get in touch</button>
                 </div>
             </main>
         </div>
