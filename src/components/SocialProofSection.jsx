@@ -6,7 +6,7 @@ const SocialProofSection = () => {
     <div className="bg-[#53389E] text-center pb-24 px-1 sm:px-4 mx-auto">
       <div className=" container mx-auto flex flex-col gap-y-[32px] px-4">
         <p className="text-white font-inter">We&rsquo;ve worked with some great startups</p>
-        <div className="grid grid-cols-2 gap-y-4 gap-x-8 justify-center items-center md:flex md:flex-wrap md:justify-center lg:justify-between">
+        <div className="grid grid-cols-2 gap-y-4 gap-x-8 justify-center items-center md:flex md:flex-wrap md:justify-center md:gap-x-24 md:gap-y-6 lg:justify-between">
           <img src={CompanyLogo1} alt="company-logo-1" className="w-[109.5px] h-[36px] sm:w-[146px] sm:h-[48px]" />
           <img src={CompanyLogo2} alt="company-logo-2" className="w-[126.75px] h-[36px] sm:w-[169px] sm:h-[48px]" />
           <img src={CompanyLogo3} alt="company-logo-3" className="w-[137.25px] h-[36px] sm:w-[183px] sm:h-[48px]" />
