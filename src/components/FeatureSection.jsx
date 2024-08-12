@@ -23,10 +23,10 @@ const FeatureSection = () => {
     <section className="flex flex-col gap-y-24 container mx-auto font-inter">
       <div className="pt-24">
         <div className="flex flex-col gap-y-12 px-4 sm:flex-row gap-x-24 items-center justify-center">
-          <div className="flex flex-col gap-y-5">
-            <p className={`text-[#6941C6] font-semibold text-base`}>Who we are</p>
-            <h2 className={`text-4xl font-semibold text-[#101828]`}>Commercial interior designers</h2>
-            <p className={`text-xl text-[#667085]`}>
+          <div className="flex flex-col gap-y-5 max-w-[560px]">
+            <p className="text-[#6941C6] font-semibold text-base">Who we are</p>
+            <h2 className="text-4xl font-semibold text-[#101828]">Commercial interior designers</h2>
+            <p className="text-lg sm:text-xl sm:leading-[30px] text-[#667085]">
               Untitled are a commercial interior design studio. We specialise in customised office design, restaurant design, shop design, and studio design.
             </p>
           </div>
